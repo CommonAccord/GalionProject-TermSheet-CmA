@@ -1,46 +1,32 @@
-//=Participants:
+//=Parties:
 
-Company.=[G/U/id/acme_incorporated.md]
+=[G/GalionProject-TermSheet-CmA/Demo/Acme-SeriesA-Parties.md]
 
-Founder.1.=[G/U/id/abigail_altima.md]
-
-Founder.2.=[G/U/id/alicia_applegate.md]
-
-Founder.3.=[G/U/id/geraldine_graber.md]
-
-Founder.=[G/GalionProject-TermSheet-CmA/Form/Parties/3/0.md]
-
-Seed.1.=[G/U/id/barbara_oreilly.md]
-
-Seed.2.=[G/U/id/geraldine_graber.md]
-
-Seed.=[G/GalionProject-TermSheet-CmA/Form/Parties/2/0.md]
-
-SeriesA.1.=[G/U/id/quake_incorporated.md]
-
-SeriesA.2.=[G/U/id/state_street_corporation.md]
-
-SeriesA.=[G/GalionProject-TermSheet-CmA/Form/Parties/2/0.md]
-
-//=The Form of Agreement:
+//=The Form of Agreement, with Galion default values:
 
 =[G/GalionProject-TermSheet-CmA/Form/-DefaultValues/0.md]  
 
 //=Parameters:
 
-SeriesA.Price.Total.$=1,000,000 Euros
+SeriesA.Price.Total.$=2,000,000 Euros
 
-SeriesA.Valuation.$=6,000,000 Euros
+SeriesA.Valuation.$=8,000,000 Euros
 
 SeriesA.Price.PerShare.$=One Euro
 
-SeriesA.Price.P1.$=600,000 Euros
+SeriesA.Price.P1.$=1,200,000 Euros
 
-SeriesA.Price.P2.$=400,000 Euros
+SeriesA.Price.P2.$=800,000 Euros
 
 InitialBoardMember.Name.Full=Eleanore Ellenbow
 
-Expense.$=20,000 Euros
+//=Reducing the threshold for requirement of stockholder approval of indebtedness from 200,000 Euros (the Galion default), to:
+
+Decide.Debt.Max.$=100,000 Euros
+
+//=Anticipated fee to legal professionals for handling the transaction
+
+Expense.$=30,000 Euros
 
 Law.State=France
 
